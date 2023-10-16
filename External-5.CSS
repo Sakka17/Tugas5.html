@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Times New Roman';
+    background-color: rgb(182, 221, 73)
+}
+
+#judul {
+    background-color: burlywood;
+    color: blue;
+    font-size: 30px;
+    text-align: center;
+    padding: 10px;
+    border: 5px solid black;
+    margin-bottom: 10px;
+}
+
+.content {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.content p {
+    font-family: 'Times New Roman';
+    font-size: 16px;
+    text-align: justify;
+}
+
+.media img {
+    margin-top: 0;
+    padding-top: 0;
+    width: 330px;
+    height: 175px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+.movie img {
+    display: flex;
+    flex-direction: row;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+.movie p {
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: justify;
+}
+
+.video iframe {
+    width: 668px;
+    height: 390px;
+    margin-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.video p {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.list {
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: justify;
+}
